@@ -1,0 +1,11 @@
+.env
+.secret.env
+__pycache__/
+*.pyc
+.idea/
+.venv/
+.vscode/
+*.log
+.coverage
+coverage.xml
+

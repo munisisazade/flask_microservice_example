@@ -1,0 +1,8 @@
+.*
+*
+!app/
+!instance/
+!requirements.txt
+!manage.py
+!run.py
+!main.py
