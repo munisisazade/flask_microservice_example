@@ -23,87 +23,51 @@ $ pip install -r requirements.txt
 ```
 .
 ├── Dockerfile
-├── OWNERS
 ├── README.md
 ├── SOURCE.md
-├── __init__.py
+├── __pycache__
 ├── app
 │   ├── __init__.py
-│   ├── api
+│   ├── __pycache__
+│   ├── decorators.py
+│   ├── error_handler.py
+│   ├── helpers
 │   │   ├── __init__.py
-│   │   ├── generic.py
-│   │   └── webservices
-│   │       ├── __init__.py
-│   │       ├── documentation.py
-│   │       ├── forms.py
-│   │       ├── sso_integrations.py
-│   │       ├── validations.py
-│   │       └── webservice_crud.py
-│   ├── forms.py
-│   ├── models.py
-│   ├── signals.py
-│   ├── templates
-│   │   ├── index.template.html
-│   │   └── voen_list.html
-│   └── utils
+│   │   ├── __pycache__
+│   │   ├── logger.py
+│   │   ├── parser.py
+│   │   └── urlparser.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   └── book.py
+│   ├── response.py
+│   ├── routes
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   └── book.py
+│   ├── services
+│   │   └── __init__.py
+│   └── validators
 │       ├── __init__.py
-│       ├── apidoc.py
-│       ├── exceptions.py
-│       ├── logger.py
-│       ├── login_decor.py
-│       ├── parser.py
-│       ├── response.py
-│       ├── sagabase.py
-│       └── urlparser.py
+│       ├── __pycache__
+│       └── book.py
+├── contributors.txt
 ├── docker-compose.yml
-├── docs
-│   ├── app
-│   │   ├── api
-│   │   │   ├── generic.html
-│   │   │   ├── index.html
-│   │   │   └── webservices
-│   │   │       ├── documentation.html
-│   │   │       ├── forms.html
-│   │   │       ├── index.html
-│   │   │       ├── sso_integrations.html
-│   │   │       ├── validations.html
-│   │   │       └── webservice_crud.html
-│   │   ├── forms.html
-│   │   ├── index.html
-│   │   ├── models.html
-│   │   ├── signals.html
-│   │   └── utils
-│   │       ├── apidoc.html
-│   │       ├── exceptions.html
-│   │       ├── index.html
-│   │       ├── logger.html
-│   │       ├── login_decor.html
-│   │       ├── parser.html
-│   │       ├── response.html
-│   │       ├── sagabase.html
-│   │       └── urlparser.html
-│   ├── instance
-│   │   ├── config.html
-│   │   └── index.html
-│   └── run.html
 ├── instance
 │   ├── __init__.py
+│   ├── __pycache__
 │   └── config.py
-├── make_doc.sh
+├── main.py
+├── microservice.log
 ├── requirements.txt
 ├── run.py
 └── tests
-    ├── runner.py
-    ├── test_authorization.py
-    ├── test_permission.py
-    ├── test_response.py
-    ├── test_service_list_api.py
-    ├── test_structure.py
-    ├── test_system.py
-    ├── test_webservice.py
-    └── utilities.py
+    ├── __init__.py
+    ├── requirements-test.txt
+    └── test_authorization.py
 
-13 directories, 67 files
+15 directories, 29 files
 ```
 
 
