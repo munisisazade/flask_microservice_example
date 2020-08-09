@@ -25,38 +25,31 @@ $ pip install -r requirements.txt
 ├── Dockerfile
 ├── README.md
 ├── SOURCE.md
-├── __pycache__
 ├── app
 │   ├── __init__.py
-│   ├── __pycache__
 │   ├── decorators.py
 │   ├── error_handler.py
 │   ├── helpers
 │   │   ├── __init__.py
-│   │   ├── __pycache__
 │   │   ├── logger.py
 │   │   ├── parser.py
 │   │   └── urlparser.py
 │   ├── models
 │   │   ├── __init__.py
-│   │   ├── __pycache__
 │   │   └── book.py
 │   ├── response.py
 │   ├── routes
 │   │   ├── __init__.py
-│   │   ├── __pycache__
 │   │   └── book.py
 │   ├── services
 │   │   └── __init__.py
 │   └── validators
 │       ├── __init__.py
-│       ├── __pycache__
 │       └── book.py
 ├── contributors.txt
 ├── docker-compose.yml
 ├── instance
 │   ├── __init__.py
-│   ├── __pycache__
 │   └── config.py
 ├── main.py
 ├── microservice.log
@@ -67,7 +60,7 @@ $ pip install -r requirements.txt
     ├── requirements-test.txt
     └── test_authorization.py
 
-15 directories, 29 files
+8 directories, 29 files
 ```
 
 
